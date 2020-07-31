@@ -8,6 +8,10 @@
     padding: 0;
 }
 
+header {
+    overflow: hidden;
+}
+
 .midias {
     width: 100%; /*Ocupação da borda na horizontal*/
     height: 38.5px; /*Altura da borda*/
@@ -19,10 +23,14 @@
     width: 20px;
 }
 
+.midias a:hover{
+    background: rgba(255, 255, 255, 0.513);
+}
+
 .midias ul {
     list-style: none;
     position: relative;
-    right: 296px;
+    right: 279px;
 }
 
 .midias ul li{
@@ -91,7 +99,7 @@
     text-align: center;
     background-color:#fff;
     color: #222;
-    border-right: solid 1px rgba(34, 34, 34, 0.15);
+    border-right: solid 2.5px rgba(34, 34, 34, 0.15);
 }
 
 .menu ul li:hover ul {
@@ -99,7 +107,7 @@
 }
 
 .menu a:hover {
-    border-bottom: solid 2px #222;
+    border-bottom: solid 2.5px #222; /*bordar abaixo do menu*/
 }
 
 
@@ -118,14 +126,53 @@
     position: absolute;
     width: 130px;
     padding: 5px;
+    object-fit: cover;
 }
 
 .img-inicio {
-    position: relative;
-    top: -50px;
-    left: 20px;
-    transform: translateY(-1000px);
+    position: absolute;
     overflow: hidden;
-    animation: ;
+    object-fit: cover;
+    animation-name: anime-cortes;
+    animation-duration: 2s;
+    animation-delay: 3.5s; /*Posição em relação ao top*/
+    width: 100%;
+    height: 100%;
+    top: 92.1px;
+    background-color: rgba(0, 0, 0, 0.678);
 }
 
+.img-inicio img{
+    width: 100%; /* Essa class vai ocupa 100% da LARGURA do header */
+    height: 100%; /* Essa class vai ocupa 100% da ALTURA do header */
+    opacity: 0.45; /*opacidade*/
+}
+
+.netto {
+    position: relative;
+    width: 500px;
+    height: 600px;
+}
+
+.netto img{
+    width: 100%;
+    height: 100%;
+    top: 100px;
+    left: 700px;
+}
+
+/*texto inicio*/
+
+.texto h1{
+    font-family: montserrat;
+}
+
+.texto p{
+    font-family: montserrat;
+}
+
+/*@keyframes anime-cortes {
+    0% { width: 100%;  height: 100%;   top:-1000px;}
+    75% { width: 100%;  height: 100%;   top:-1000px; }
+    100% { width: 100%;  height: 100%;  top:-1000px;}
+}*/
