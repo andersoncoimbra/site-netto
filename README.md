@@ -6,5 +6,5 @@ Campanha e pós campanha
 
 :articulated_lorry: nova fucionalidade
 
-:
+:anger: correção de bug
 
