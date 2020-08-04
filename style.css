@@ -409,3 +409,96 @@ text-shadow: 0px -2px black;
     background: chocolate;
     color: #fff;
 }
+
+.rodape {
+    position: relative;
+    background: rgba(1, 1, 70, 0.842);
+    height: 400px;
+    top: -400px;
+}
+
+.rodape h1{
+    font-size: 2rem;
+    font-family: "montserrat";
+    text-transform: uppercase;
+}
+
+.rodape-contato {
+    position: relative;
+    left: 400px;
+    top: -110px;
+    height: 150px;
+    width: 700px;
+}
+
+.rodape-contato h1{
+    color: chocolate;
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+.rodape-contato p{
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 40px;
+}
+
+.rodape-contato img{
+    width: 35px;
+    padding-right: 10px;
+}
+
+.rodape-logo {
+    position: relative;
+    width: 200px;
+    height: 210px;
+    background: #fff;
+    top: 120px;
+    left: 120px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+}
+
+.rodape-logo img{
+    position: absolute;
+    margin: 14px;
+    width: 170px;
+    height: 170px;
+}
+
+.rodape-midias {
+    color: chocolate;
+    position: relative;
+    width: 300px;
+    height: 50px;
+    left: 900px;
+    top: -269px;
+}
+
+.rodape-midias a{
+    color: #fff;
+}
+
+.rodape-midias img{
+    width: 38px;
+    padding: 5px;
+}
+
+.rodape-icones {
+    top: 40px;
+    left: -6px;
+    position: absolute;
+    width: 150px;
+}
+
+.copyright {
+    position: relative;
+    top: -70px;
+}
+
+.copyright h1{
+    color: chocolate;
+    text-align: center;
+    font-size: 20px;
+    text-transform: lowercase;
+    margin-bottom: 1px;
+}
