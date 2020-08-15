@@ -133,7 +133,7 @@ header {
     object-fit: cover;
     width: 100%; 
     height: 100vh; /*Altura da visualização*/
-    background-color: rgba(1, 8, 105, 0.794);
+    background-color: rgba(0, 0, 0, 0.678);
 }
 
 .img-inicio img{
@@ -290,10 +290,10 @@ header {
 
 .coteudo .card .face.face1 .content h3 {
     margin-bottom: 30px;
-    padding: 0;
+    padding-bottom: 30px;
     color: #fff; /*Cor das letras iniciais*/
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.3rem;
 }
 
 .coteudo .card .face.face2 {
@@ -450,9 +450,6 @@ header {
     margin-bottom: 3rem;
 }
 
-/*seta*/
-
-
 .new-texto button{
     color: rgb(15, 6, 70);
     font-family: "montserrat3";
@@ -596,6 +593,293 @@ header {
     font-size: 1.2rem;
     text-align: center;
 }
+
+/* aba propostas */
+.logo img{
+    position: absolute;
+    min-width: 250px;
+    min-height: 200px;
+    padding: 5px;
+    left: 2.5rem;
+}
+
+.img-inicio-propostas {
+    position: absolute;
+    overflow: hidden;
+    object-fit: cover;
+    width: 100%; 
+    height: 65vh; /*Altura da visualização*/
+    background-color: rgba(1, 8, 105, 0.794);
+}
+
+.img-inicio-propostas img{
+    width: 100%; /* Essa class vai ocupa 100% da LARGURA do header */
+    height: 65vh; /* Essa class vai ocupa 100% da ALTURA do header */
+    opacity: 0.45; /*opacidade*/
+}
+
+/*video e texto*/
+
+.proposta-video {
+    position: absolute;
+    width: 35%;
+    height: 60%;
+    margin-left: 10%;
+    margin-top: 40%;
+    background: rgb(209, 91, 12);
+}
+
+.proposta-video img#fundo{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+
+.proposta-video .play {
+    top: -2rem;
+    width: 2rem;
+    height: 20%;   
+}
+
+.play img{
+    width: 100%;
+    height: 100%;
+}
+
+.proposta-texto {
+    position: absolute;
+    width: 40%;
+    height: 60%;
+    margin-left: 50%;
+    margin-right: 10%;
+    margin-top: 40%;
+}
+
+.proposta-texto h1{
+    color: rgb(15, 6, 70);
+    line-height: 2rem;
+    text-align: left;
+    font-family: "montserrat1";
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.proposta-texto h2{
+    color: rgb(15, 6, 70);
+    line-height: 0.2;
+    font-family: "montserrat2";
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.proposta-texto p{
+    color: rgb(15, 6, 70);
+    line-height: 2rem;
+    text-align: left;
+    font-family: "montserrat3";
+}
+
+.proposta-texto h3 {
+    color: rgb(15, 6, 70);
+    line-height: 0.1rem;
+    text-align: left;
+    font-family: "montserrat1";
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.048);
+}
+
+.proposta-texto .traco {
+    width: 3rem;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-bottom: chocolate 5px solid;
+}
+
+.frase {
+    box-shadow: 0px 15px 25px 0px rgba(0,0,0,0.07);
+    width: 35rem;
+    height: 8rem;
+    border-left: rgb(8, 1, 53) 5px solid;
+}
+
+.frase h1{
+    text-align: left;
+    padding: 2.5rem;
+}
+
+.frase img{
+    opacity: 0.4;
+}
+
+
+
+/* PAGINA NEWS */
+
+.img-inicio-news {
+    position: absolute;
+    overflow: hidden;
+    object-fit: cover;
+    width: 100%; 
+    height: 65vh; /*Altura da visualização*/
+    background-color: rgba(0, 0, 0, 0.678);
+}
+
+.img-inicio-news img{
+    width: 100%; /* Essa class vai ocupa 100% da LARGURA do header */
+    height: 100vh; /* Essa class vai ocupa 100% da ALTURA do header */
+    opacity: 0.45; /*opacidade*/
+}
+
+/*cards*/
+.mini-news2 {
+    position: relative;
+    width: 80%;
+    margin-top: 80vh;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.mini-news3 {
+    position: relative;
+    width: 80%;
+    margin-top: -35vh;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.mini-news2 h1{
+    color: rgb(15, 6, 70);
+    line-height: 3rem;
+    text-align: center;
+    font-family: "montserrat1";
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+}
+
+.mini-news2 h2{
+    line-height: 0.1rem;
+    text-align: center;
+    font-family: "montserrat1";
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.048);
+}
+
+.mini-news2 p{
+    color: rgb(15, 6, 70);
+    text-align: center;
+    font-family: "montserrat2";
+    font-size: 1.3rem;
+}
+
+.news2 {
+    display: grid;
+    grid-template-columns: repeat(17, 1fr);
+    grid-template-rows: repeat(10, 6rem);
+}
+
+.new2{ 
+    border: rgba(0, 0, 0, 0.431) 1px solid;
+}
+
+.new2:hover {
+    background: rgb(4, 14, 71);
+    transition-delay: 0.1s;
+}
+
+.new2:hover p{
+    color: rgb(255, 255, 255);
+}
+
+
+.new2:hover h1{
+    color: rgb(255, 255, 255);
+}
+
+.new-texto2:hover button{
+    color: white;
+}
+
+.new2:nth-child(1){
+    grid-column: 1 / 6;
+    grid-row: 1 / 7;
+}
+
+.new2:nth-child(2){
+    grid-column: 7 / 12;
+    grid-row: 1 / 7;
+}
+
+.new2:nth-child(3){
+    grid-column: 13 / 18;
+    grid-row: 1 / 7;
+}
+
+.new-data2 {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.new-data2 h1{
+    color: rgb(15, 6, 70);
+    font-family: "montserrat1";
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    margin-bottom: 0.2rem;
+}
+.new-coteudo2 {
+    position: relative;
+}
+
+.traco2 {
+    width: 3rem;
+    margin-top: -15px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border-bottom: chocolate 3px solid;
+}
+
+.new-coteudo2 h1{
+    color: rgb(15, 6, 70);
+    font-family: "montserrat2";
+    text-align: left;
+    line-height: 1.2rem;
+    font-size: 1rem;
+    margin-left: 2rem;
+    margin-bottom: 1.2rem;
+    margin-top: 2rem;
+}
+
+.new-texto2 p{
+    width: 17rem;
+    color: rgb(20, 6, 110);
+    font-family: "montserrat3";
+    text-align: left;
+    line-height: 1.2rem;
+    font-size: 1.3rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.new-texto2 button{
+    color: rgb(15, 6, 70);
+    font-family: "montserrat3";
+    text-align: left;
+    font-size: 1rem;
+    margin-left: 2rem;
+    border: none;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+    border-bottom: chocolate 2px solid;
+
+}
+
 /* media queries */
 
 @media (max-width: 1320px) {
