@@ -40,7 +40,7 @@ header {
 .menu ul{
     list-style: none;
     position: relative;
-    left: 25rem; /*Afastamento da esquerda*/
+    left: 23rem; /*Afastamento da esquerda*/
     top: -1rem;
 }
 
@@ -193,6 +193,25 @@ header {
     font-size: 1.3rem;
 }
 
+.corpo-site button{
+    font-family: "montserrat3", serif;
+    color: rgba(4, 12, 58, 0.993);
+    background: rgb(236, 103, 8);
+    padding: 1rem 2rem; /*espaçamento de cima e baixo, em seguida espaçamento da direita e esquerda*/
+    border: none;
+    border-radius: 5px; /*arredondamento da borda*/
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-left: 40%; /*alinhar uma div a direita*/
+    margin-right: 40%;
+}
+
+
+.corpo-site button:hover {
+    background: rgba(1, 12, 73, 0.719);
+
+}
+
 /*banner */
 
 .banner {
@@ -329,9 +348,12 @@ header {
     border: 1px solid #333;
 }
 
-.news .new .new-texto a:hover{
-    color: chocolate;
+.coteudo .card .face.face2 .content a:hover{
+    transition: 0.5s;
+    background: chocolate;
 }
+
+
 
 /*mini news*/
 .mini-news {
@@ -460,7 +482,7 @@ header {
     padding: 0;
     background: none;
     cursor: pointer;
-    border-bottom: black 2px solid;
+    border-bottom: chocolate 2px solid;
 
 }
 
@@ -475,6 +497,26 @@ header {
 
 /*rodape*/
 
+.container-rodape-news{
+    margin-top: -15rem;
+    width: 100%;
+    height: 30rem;
+    background-color: rgb(7, 22, 109);
+}
+.container-rodape-contato{
+    margin-top: -25rem;
+    width: 100%;
+    height: 30rem;
+    background-color: rgb(7, 22, 109);
+}
+
+.container-rodape-propostas {
+    margin-top: 300vh;
+    width: 100%;
+    height: 30rem;
+    background-color: rgb(7, 22, 109);
+}
+
 .container-rodape {
     width: 100%;
     height: 30rem;
@@ -482,7 +524,6 @@ header {
 }
 
 .info-rodape {
-    background-color: rgb(7, 22, 119);
     position: absolute;
     width: 22rem;
     height: 20rem;
@@ -538,7 +579,7 @@ header {
     font-family: "montserrat3";
     color: #fff;
     font-size: 1.2rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .rodape-menu p img{
@@ -549,7 +590,7 @@ header {
 .rodape-midias {
     position: absolute;
     margin-left: 60rem;
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 
 .rodape-midias img{
@@ -577,6 +618,10 @@ header {
 
 .rodape-midias ul{
     cursor: pointer;
+}
+
+.rodape-midias li{
+    margin-top: -0.5rem;
 }
 
 .rodape-copyright{
@@ -619,7 +664,7 @@ header {
 }
 
 
-/*video e texto*/
+/*img e texto*/
 
 .proposta-video {
     position: absolute;
@@ -627,13 +672,11 @@ header {
     height: 60%;
     margin-left: 10%;
     margin-top: 40%;
-    background: rgb(209, 91, 12);
 }
 
 .proposta-video img#fundo{
     width: 100%;
     height: 100%;
-    opacity: 0.3;
 }
 
 .proposta-video .play {
@@ -693,37 +736,18 @@ header {
     border-bottom: chocolate 5px solid;
 }
 
-.frase {
-    box-shadow: 0px 15px 25px 0px rgba(0,0,0,0.07);
-    width: 35rem;
-    height: 8rem;
-    border-left: rgb(8, 1, 53) 5px solid;
-}
-
-.frase h1{
-    text-align: left;
-    padding: 2.5rem;
-}
-
-.frase img{
-    opacity: 0.4;
-}
-
-
-
+/*parte2*/
 .proposta-video2 {
     position: absolute;
     width: 35%;
     height: 60%;
     margin-left: 55%;
     margin-top: 80%;
-    background: rgb(209, 91, 12);
 }
 
 .proposta-video2 img#fundo{
     width: 100%;
     height: 100%;
-    opacity: 0.3;
 }
 
 .proposta-texto2 {
@@ -777,22 +801,6 @@ header {
     border-bottom: chocolate 5px solid;
 }
 
-.frase2 {
-    box-shadow: 0px 15px 25px 0px rgba(0,0,0,0.07);
-    width: 35rem;
-    height: 8rem;
-    border-left: rgb(8, 1, 53) 5px solid;
-}
-
-.frase2 h1{
-    text-align: left;
-    padding: 2.5rem;
-}
-
-.frase2 img{
-    opacity: 0.4;
-}
-
 .logo img{
     position: absolute;
     min-width: 250px;
@@ -815,9 +823,7 @@ header {
     height: 65vh; /* Essa class vai ocupa 100% da ALTURA do header */
     opacity: 0.45; /*opacidade*/
 }
-
-
-/*video e texto*/
+/* parte 3 das propostas*/
 
 .proposta-video3 {
     position: absolute;
@@ -825,13 +831,11 @@ header {
     height: 60%;
     margin-left: 10%;
     margin-top: 120%;
-    background: rgb(209, 91, 12);
 }
 
 .proposta-video3 img#fundo{
     width: 100%;
     height: 100%;
-    opacity: 0.3;
 }
 
 .proposta-texto3 {
@@ -885,21 +889,6 @@ header {
     border-bottom: chocolate 5px solid;
 }
 
-.frase3 {
-    box-shadow: 0px 15px 25px 0px rgba(0,0,0,0.07);
-    width: 35rem;
-    height: 8rem;
-    border-left: rgb(8, 1, 53) 5px solid;
-}
-
-.frase3 h1{
-    text-align: left;
-    padding: 2.5rem;
-}
-
-.frase3 img{
-    opacity: 0.4;
-}
 /* PAGINA NEWS */
 
 .img-inicio-news {
@@ -922,14 +911,6 @@ header {
     position: relative;
     width: 80%;
     margin-top: 80vh;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.mini-news3 {
-    position: relative;
-    width: 80%;
-    margin-top: -35vh;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -1064,6 +1045,146 @@ header {
     border-bottom: chocolate 2px solid;
 }
 
+/**/
+
+.mini-news3 {
+    position: relative;
+    width: 80%;
+    margin-top: -20rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.mini-news3 h1{
+    color: rgb(15, 6, 70);
+    line-height: 3rem;
+    text-align: center;
+    font-family: "montserrat1";
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+}
+
+.mini-news3 h2{
+    line-height: 0.1rem;
+    text-align: center;
+    font-family: "montserrat1";
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.048);
+}
+
+.mini-news3 p{
+    color: rgb(15, 6, 70);
+    text-align: center;
+    font-family: "montserrat2";
+    font-size: 1.3rem;
+}
+
+.news3 {
+    display: grid;
+    grid-template-columns: repeat(17, 1fr);
+    grid-template-rows: repeat(10, 6rem);
+}
+
+.new3{ 
+    border: rgba(0, 0, 0, 0.431) 1px solid;
+}
+
+.new3:hover {
+    background: rgb(4, 14, 71);
+    transition-delay: 0.1s;
+}
+
+.new3:hover p{
+    color: rgb(255, 255, 255);
+}
+
+
+.new3:hover h1{
+    color: rgb(255, 255, 255);
+}
+
+.new-texto3:hover button{
+    color: white;
+}
+
+.new3:nth-child(1){
+    grid-column: 1 / 6;
+    grid-row: 1 / 7;
+}
+
+.new3:nth-child(2){
+    grid-column: 7 / 12;
+    grid-row: 1 / 7;
+}
+
+.new3:nth-child(3){
+    grid-column: 13 / 18;
+    grid-row: 1 / 7;
+}
+
+.new-data3 {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.new-data3 h1{
+    color: rgb(15, 6, 70);
+    font-family: "montserrat1";
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    margin-bottom: 0.2rem;
+}
+.new-coteudo3 {
+    position: relative;
+}
+
+.traco3 {
+    width: 3rem;
+    margin-top: -15px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border-bottom: chocolate 3px solid;
+}
+
+.new-coteudo3 h1{
+    color: rgb(15, 6, 70);
+    font-family: "montserrat2";
+    text-align: left;
+    line-height: 1.2rem;
+    font-size: 1rem;
+    margin-left: 2rem;
+    margin-bottom: 1.2rem;
+    margin-top: 2rem;
+}
+
+.new-texto3 p{
+    width: 17rem;
+    color: rgb(20, 6, 110);
+    font-family: "montserrat3";
+    text-align: left;
+    line-height: 1.2rem;
+    font-size: 1.3rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.new-texto3 button{
+    color: rgb(15, 6, 70);
+    font-family: "montserrat3";
+    text-align: left;
+    font-size: 1rem;
+    margin-left: 2rem;
+    border: none;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+    border-bottom: chocolate 2px solid;
+}
+
 /* PAGINA CONTATOS */
 .img-inicio-contato {
     position: absolute;
@@ -1148,23 +1269,13 @@ header {
 /* media queries */
 
 @media (max-width: 1320px) {
-    .menu .nav-menu2 li{
-        display: none ;
-    }
 
-    .menu .nav-menu2 .apoia{
-        display: inline;
-    }
 }
 
 @media (max-width: 1100px) {
-    .menu .nav-menu2 .apoia{
-        display: inline;
-    }
+  
 }
 
 @media (max-width: 900px){
-    .menu .nav-menu{
-        display: none;
-    }
+   
 }
