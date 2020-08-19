@@ -730,149 +730,134 @@ header {
 
 /*rodape*/
 
-.container-rodape-news{
-    margin-top: -15rem;
-    width: 100%;
-    height: 30rem;
-    background-color: rgb(7, 22, 109);
-}
-.container-rodape-contato{
-    margin-top: -25rem;
-    width: 100%;
-    height: 30rem;
-    background-color: rgb(7, 22, 109);
+footer {
+  width: 100%;
+  height: 22rem;
+  background: rgb(4, 14, 71);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.container-rodape-propostas {
-    margin-top: 300vh;
-    width: 100%;
-    height: 30rem;
-    background-color: rgb(7, 22, 109);
-}
-
-.container-rodape {
-    width: 100%;
-    height: 30rem;
-    margin-top: -6.5rem;
-    background-color: rgb(7, 22, 109);
-}
-
-.info-rodape {
-    position: absolute;
-    width: 22rem;
-    height: 20rem;
-    margin-top: 5rem;
-    margin-left: 9.1rem;
-    box-shadow: 0px 15px 25px 0px rgba(0,0,0,0.07);
-}
-
-.rodape-logo {
-    position: absolute;
-    width: 15rem;
-    height: 5rem;
-    margin-left: 3.5rem;
-    margin-top: 3rem;
+.rodape-logo{
+    margin-left: 8rem;
 }
 
 .rodape-logo img{
-    position: absolute;
-    max-width: 15rem;
-    margin: 0.2rem;
+    margin-top: 5rem;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 .rodape-menu {
-    position: absolute;
-    margin-left: 40rem;
-    margin-top: 3rem;
-}
-
-.rodape-menu h1{
-    color: chocolate;
-    font-family: "montserrat1";
-    font-size: 1.5;
+    margin-top: -15rem;
+    margin-left: 30rem;
 }
 
 .rodape-menu img{
     max-width: 20px;
     max-height: 20px;
-    margin-right: 1rem;
+    margin-right: 5px;
+}
+
+.rodape-menu ul{
+    margin-top: -1rem;
+}
+
+.rodape-menu li{
+    padding-top: 1rem;
 }
 
 .rodape-menu a{
-    color: #fff;
     font-family: "montserrat3";
-    line-height: 3rem;
+    color: #fff;
     font-size: 1.2rem;
 }
 
-.rodape-menu a:hover{
+.rodape-menu h1{
     color: chocolate;
-}
-
-.rodape-menu p{
-    font-family: "montserrat3";
-    color: #fff;
-    font-size: 1.2rem;
-    margin-top: 1rem;
-}
-
-.rodape-menu p img{
-    max-width: 25px;
-    max-height: 25px;
+    font-family: "montserrat1";
 }
 
 .rodape-midias {
-    position: absolute;
-    margin-left: 60rem;
-    margin-top: 1rem;
+    margin-top: -18rem;
+    margin-left: 47rem;
 }
 
 .rodape-midias img{
-    max-width: 30px;
-    max-height: 30px;
+    max-width: 20px;
+    max-height: 20px;
+    margin-right: 5px;
+}
+
+.rodape-midias ul{
+    margin-top: -1rem;
+}
+
+.rodape-midias li{
+    padding-top: 1rem;
+}
+
+.rodape-midias a{
+    font-family: "montserrat3";
+    color: #fff;
+    font-size: 1.2rem;
 }
 
 .rodape-midias h1{
     color: chocolate;
     font-family: "montserrat1";
-    font-size: 1.5;
 }
 
-.rodape-midias a{
+/*segunda coluna das midias*/
+.rodape-midias2 {
+    margin-top: -11rem;
+    margin-left: 62rem;
+}
+
+.rodape-midias2 img{
+    max-width: 20px;
+    max-height: 20px;
+    margin-right: 5px;
+}
+
+.rodape-midias2 ul{
+    margin-top: -1rem;
+}
+
+.rodape-midias2 li{
+    padding-top: 1rem;
+}
+
+.rodape-midias2 a{
+    font-family: "montserrat3";
     color: #fff;
-    font-family: "montserrat3";
-    line-height: 4rem;
     font-size: 1.2rem;
-    margin-left: 3px;
 }
 
-.rodape-midias a:hover{
+.rodape-midias2 h1{
+    font-family: "montserrat1";
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.rodape-midias a:hover, 
+.rodape-menu a:hover,
+.rodape-midias2 a:hover{
     color: chocolate;
 }
 
-.rodape-midias ul{
-    cursor: pointer;
+.copyright{
+    height: 0.2rem;
+    margin-top: 6.9rem;
 }
 
-.rodape-midias li{
-    margin-top: -0.5rem;
-}
-
-.rodape-copyright{
-    position: relative;
-    width: 100%;
-    height: 5vh;
-    background-color: rgb(7, 22, 109);
-    top: 30rem;
-}
-
-.rodape-copyright h1{
-    color: chocolate;
-    font-family: "montserrat3";
-    font-size: 1.2rem;
+.copyright h1{
+    margin-bottom: 0px;
     text-align: center;
+    font-size: 1rem;
+    color: chocolate;
 }
-
 /* aba propostas */
 .logo img{
     position: absolute;
