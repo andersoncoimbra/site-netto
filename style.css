@@ -261,7 +261,6 @@ header {
 
 .coteudo{
     width: 80%; /*Tamanho da div*/
-    margin-left: 10%;
     margin-right: 10%;
     top: 10vh;
     position: relative; /**/
@@ -287,6 +286,7 @@ header {
     align-items: center;
     z-index: 1;
     transform: translateY(100px);
+    margin-left: 4rem;
 }
 
 .coteudo .card:hover .face.face1 {
@@ -325,6 +325,7 @@ header {
     box-sizing: border-box;
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
     transform: translateY(-100px);
+    margin-left: 4rem;
 }
 
 .coteudo .card:hover .face.face2 {
@@ -579,10 +580,9 @@ header {
     position: relative;
     filter: drop-shadow(0 0 10px #0003);
     perspective: 100px;
-    width: 80%;
-    height: 30rem;
-    margin-left: 10%;
-    background: red;
+    width: 85%;
+    height: 33rem;
+    margin-left: 7%;
   }
   
   .carousel__viewport {
@@ -603,12 +603,11 @@ header {
     position: relative;
     flex: 0 0 100%;
     width: 100%;
-    background-color: #f99;
     counter-increment: item;
   }
   
   .carousel__slide:nth-child(even) {
-    background-color: #99f;
+
   }
   
   .carousel__slide:before {
