@@ -472,18 +472,20 @@ header {
     margin-bottom: 3rem;
 }
 
-.new-texto button{
-    color: rgb(15, 6, 70);
-    font-family: "montserrat3";
-    text-align: left;
-    font-size: 1rem;
-    margin-left: 2rem;
-    border: none;
-    padding: 0;
-    background: none;
-    cursor: pointer;
-    border-bottom: chocolate 2px solid;
+.new-texto a{
+    margin: 1.6rem;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: rgb(20, 6, 110);
+    padding: 5px;
+    border: 1px solid rgb(20, 6, 110);
+}
 
+.new-texto a:hover{
+    color: #fff;
+    transition: 0.5s;
+    background: chocolate;
 }
 
 .new-texto img{
