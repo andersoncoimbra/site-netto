@@ -620,10 +620,7 @@ header {
     width: 100%;
     counter-increment: item;
   }
-  
-  .carousel__slide:nth-child(even) {
 
-  }
   
   .carousel__slide:before {
   
