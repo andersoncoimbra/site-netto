@@ -1705,11 +1705,53 @@ footer {
     background: rgba(1, 12, 73, 0.719);
 }
 
-/* media queries */
+/*aba saiba mais*/
+.texto-saiba-mais {
+    position: relative;
+    width: 100%;
+    height: 30vh;
+    margin-top: 80vh;
+    margin-bottom: 3rem;
+}
 
-@media (max-width: 1205px) {
+.texto-saiba-mais h1{
+    color: rgb(20, 6, 110);
+    font-size: 1.2rem;
+    font-family: "montserrat3";
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 60%;
+}
+
+.img-saiba-mais{
+    width: 100%;
+    height: 35vh;
+    margin-top: -34.5vh;
     
 }
+
+.img-saiba-mais img{
+    width: 39.3rem;
+    height: 35vh;
+    margin-right: 10%;
+    margin-left: 45%;
+}
+
+.video-saiba-mais {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5rem;
+    margin-top: 6rem;
+}
+
+.texto-saiba-mais iframe{
+    margin-bottom: 5rem;
+
+}
+
+/* media queries */
+
+
 
 @media (max-width: 1270px) {
     .menu ul{
@@ -1718,40 +1760,93 @@ footer {
         left: 16%; /*Afastamento da esquerda*/
         top: -1rem;
     }
-
-}
-
-@media (max-width: 1191px){
-   
     .nav-menu2 li#midia5{
         display: none;
     }
+
 }
 
-@media (max-width: 1191px){
+@media (max-width: 1235px){
     .nav-menu2 li#midia4{
         display: none;
     }
 
+    .banner img {
+        left: 10rem;
+        width: 40rem;
+    }
+
+    .banner p {
+        font-size: 1.35rem;
+    }
 }
 
-@media (max-width: 1075px){
+@media (max-width: 1213px){
+    .corpo-site h2{
+        word-break: break-word;
+        line-height: 2.2rem;
+    }
+
+    .corpo-site h1{
+        word-break: break-word;
+      
+    }
+
+    .titulo-carrosel h1{
+        word-break: break-word;
+    }
+
+    .titulo-carrosel h2{
+        word-break: break-word;
+        line-height: 2.2rem;
+    }
+
+    .mini-news h1{
+        word-break: break-word;
+    }
+
+    .mini-news h2{
+        word-break: break-word;
+        line-height: 2.2rem;
+    }
+
+}
+
+@media (max-width: 1188px){
     .nav-menu2 li#midia3{
         display: none;
     }
 
-}
-
-@media (max-width: 1018px){
-    .nav-menu2 li#midia2{
-        display: none;
+    .netto img{
+        max-width: 70rem;
+        height: 38.5rem;
+        margin-left: 3.2rem;
     }
 
 }
 
-@media (max-width: 966px){
+@media (max-width: 1140px){
+    .nav-menu2 li#midia2{
+        display: none;
+    }
+}
+
+@media (max-width: 1085px){
     .nav-menu2 li#midia1{
         display: none;
     }
 
+    .banner img {
+        left: 10rem;
+        width: 35rem;
+    }
+
+    .banner p {
+        font-size: 1.25rem;
+        line-height: 8rem;
+    }
+}
+
+@media (max-width: 100px) {
+    
 }
