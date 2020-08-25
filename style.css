@@ -19,14 +19,9 @@
 }
 
 body {
-    height: 100%;
-    width: 100%;
+    margin: 0;
+    padding: 0;
     font-size: 16px;
-}
-
-header {
-    overflow: hidden;
-    position: relative;
 }
 
 /*Menu*/
@@ -41,7 +36,7 @@ header {
 .menu ul{
     list-style: none;
     position: relative;
-    left: 29%; /*Afastamento da esquerda*/
+    left: 19%; /*Afastamento da esquerda*/
     top: -1rem;
 }
 
@@ -140,28 +135,25 @@ header {
     object-fit: cover;
     width: 100%; 
     height: 100vh; /*Altura da visualização*/
-    background-color: rgba(0, 0, 0, 0.678);
+    background-color: rgb(0, 30, 75);
 }
 
 .img-inicio img{
     width: 100%; /* Essa class vai ocupa 100% da LARGURA do header */
     height: 100vh; /* Essa class vai ocupa 100% da ALTURA do header */
-    opacity: 0.45; /*opacidade*/
+    opacity: 0.3; 
 }
 
 .netto {
     position: relative;
-    width: 500px;
-    height: 700px;
-    justify-content: right;
-    right: -49%;
-    top: -5.5rem;
+    width: 400px;
+    height: 200px;
+    right: -45%;
+    top: -8.6rem;
 }
 
 .netto img{
-    position: absolute;
-    padding: 10px;
-    height: 500px;
+    height: 38.5rem;
 }
 
 /*corpo do site*/
@@ -251,7 +243,7 @@ header {
 .banner p{
     font-family: "montserrat1", serif;
     color:#fff;
-    font-size: 1.75rem;
+    font-size: 1.45rem;
     text-shadow: .1rem .1rem 1px rgba(0, 0, 0, .4);
     text-align: right;
     text-transform: uppercase;
@@ -259,10 +251,18 @@ header {
     margin-top: -27rem;
 }
 
-.banner button{
+.bnt-inicio{
+    width: 100%;
+    position: absolute;
+    text-align: right;
+    margin-top: 15rem;
+    z-index: 100;
+}
+
+.bnt-inicio button{
     font-family: "montserrat3", serif;
     color: #fff;
-    background:  rgb(15, 6, 70);;
+    background:  chocolate;
     padding: 1rem 2rem; /*espaçamento de cima e baixo, em seguida espaçamento da direita e esquerda*/
     border: none;
     border-radius: 5px; /*arredondamento da borda*/
@@ -271,8 +271,8 @@ header {
     margin-top: 2rem;
 }
 
-.banner button:hover {
-    background: rgba(1, 12, 73, 0.719);
+.bnt-inicio button:hover {
+    background: rgb(15, 6, 70);
 }
 
 .banner-img{
@@ -394,7 +394,7 @@ header {
 }
 
 .netto{
-    margin-top: 23vh;
+    margin-top: 24vh;
     margin-left: -33.7rem;
     width: 100%;
     height: 150vh;
@@ -404,17 +404,37 @@ header {
 
 .netto img{
     max-width: 70rem;
-    height: 38.5rem;
+    height: 40.5rem;
 }
 
 .mini-news {
     position: relative;
     width: 80%;
-    margin-top: 22vh;
+    margin-top: 14vh;
     margin-left: 10%;
     margin-right: 10%;
 }
 
+/*aba eventos*/
+
+.mini-eventos{ 
+    position: relative;
+    width: 80%;
+    margin-top: 51.5vh;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.mini-eventos2{
+    position: relative;
+    width: 80%;
+    margin-top: 5rem;
+    margin-bottom: 6.5rem;
+    margin-left: 10%;
+    margin-right: 10%;    
+}
+
+/*--------*/
 .mini-news h1{
     color: rgb(15, 6, 70);
     line-height: 3rem;
@@ -625,18 +645,18 @@ header {
     }
   }
   
-  .titulo-carrosel {
-    margin-top: 8rem;
-  }
+.titulo-carrosel {
+    margin-top: 7rem;
+}
 
-  .titulo-carrosel h1{
+.titulo-carrosel h1{
     color: rgb(15, 6, 70);
     line-height: 3rem;
     text-align: center;
     font-family: "montserrat1";
     font-size: 2.5rem;
     text-transform: uppercase;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .titulo-carrosel h2{
@@ -655,22 +675,22 @@ header {
     font-size: 1.3rem;
 }
 
-  ol, li {
+ol, li {
     list-style: none;
     margin: 0;
     padding: 0;
-  }
+}
   
-  .carousel {
+.carousel {
     position: relative;
     filter: drop-shadow(0 0 10px #0003);
     perspective: 100px;
     width: 85%;
     height: 33rem;
     margin-left: 7%;
-  }
+}
   
-  .carousel__viewport {
+.carousel__viewport {
     position: absolute;
     top: 0;
     right: 0;
@@ -682,36 +702,34 @@ header {
     counter-reset: item;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
-  }
+}
   
-  .carousel__slide {
+.carousel__slide {
     position: relative;
     flex: 0 0 100%;
     width: 100%;
     counter-increment: item;
-  }
-
+}
   
-  .carousel__slide:before {
-  
+.carousel__slide:before {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate3d(-50%,-40%,70px);
     color: #fff;
     font-size: 2em;
-  }
-  
-  .carousel__snapper {
+}
+
+.carousel__snapper {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     scroll-snap-align: center;
-  }
+}
   
-  @media (hover: hover) {
+@media (hover: hover) {
     .carousel__snapper {
       animation-name: tonext, snap;
       animation-timing-function: ease;
@@ -722,33 +740,33 @@ header {
     .carousel__slide:last-child .carousel__snapper {
       animation-name: tostart, snap;
     }
-  }
+}
   
-  @media (prefers-reduced-motion: reduce) {
+@media (prefers-reduced-motion: reduce) {
     .carousel__snapper {
       animation-name: none;
     }
-  }
+}
   
-  .carousel:hover .carousel__snapper,
-  .carousel:focus-within .carousel__snapper {
+.carousel:hover .carousel__snapper,
+.carousel:focus-within .carousel__snapper {
     animation-name: none;
-  }
+}
   
-  .carousel__navigation {
+.carousel__navigation {
     position: absolute;
     right: 0;
     bottom: -2rem;
     left: 0;
     text-align: center;
-  }
+}
   
-  .carousel__navigation-list,
-  .carousel__navigation-item {
+.carousel__navigation-list,
+.carousel__navigation-item {
     display: inline-block;
-  }
+}
   
-  .carousel__navigation-button {
+.carousel__navigation-button {
     display: inline-block;
     width: 1.5rem;
     height: 1.5rem;
@@ -757,13 +775,13 @@ header {
     border: 0.25rem solid transparent;
     border-radius: 50%;
     font-size: 0;
-    transition: transform 0.1s;
-  }
+    transition:  0.1s;
+}
   
-  .carousel::before,
-  .carousel::after,
-  .carousel__prev,
-  .carousel__next {
+.carousel::before,
+.carousel::after,
+.carousel__prev,
+.carousel__next {
     position: absolute;
     top: 0;
     margin-top: 37.5%;
@@ -772,18 +790,18 @@ header {
     transform: translateY(-50%);
     border-radius: 50%;
     font-size: 0;
-    outline: 0;
-  }
+    outline: 0;  
+}
   
-  .carousel::before,
-  .carousel__prev {
+.carousel::before,
+.carousel__prev {
     left: -1rem;
-  }
+}
   
-  .carousel::after,
-  .carousel__next {
+.carousel::after,
+.carousel__next {
     right: -1rem;
-  }
+ }
   
   .carousel::before,
   .carousel::after {
@@ -830,6 +848,7 @@ header {
 .bnt-geral-eventos button:hover{
     background: rgba(1, 12, 73, 0.719);
 }
+
 /*rodape*/
 
 footer {
@@ -867,22 +886,6 @@ footer {
     padding: 5px;
     left: 2.5rem;
 }
-
-.img-inicio-propostas {
-    position: absolute;
-    overflow: hidden;
-    object-fit: cover;
-    width: 100%; 
-    height: 65vh; /*Altura da visualização*/
-    background-color: rgb(22, 5, 89);
-}
-
-.img-inicio-propostas img{
-    width: 100%; /* Essa class vai ocupa 100% da LARGURA do header */
-    height: 65vh; /* Essa class vai ocupa 100% da ALTURA do header */
-    opacity: 0.3; /*opacidade*/
-}
-
 
 /*img e texto*/
 
@@ -1034,14 +1037,14 @@ footer {
     overflow: hidden;
     object-fit: cover;
     width: 100%; 
-    height: 65vh; /*Altura da visualização*/
-    background-color: rgba(1, 8, 105, 0.794);
+    height: 50vh; /*Altura da visualização*/
+    background-color: rgb(0, 30, 95);
 }
 
 .img-inicio-propostas img{
     width: 100%; /* Essa class vai ocupa 100% da LARGURA do header */
-    height: 65vh; /* Essa class vai ocupa 100% da ALTURA do header */
-    opacity: 0.45; /*opacidade*/
+    height: 100vh; /* Essa class vai ocupa 100% da ALTURA do header */
+    opacity: 0.4; /*opacidade*/
 }
 /* parte 3 das propostas*/
 
@@ -1112,13 +1115,12 @@ footer {
 /* PAGINA NEWS */
 
 .img-inicio-news {
+    background-color: rgb(0, 30, 95);
     position: absolute;
     overflow: hidden;
     object-fit: cover;
     width: 100%; 
     height: 50vh; /*Altura da visualização*/
-    background-color: rgba(1, 8, 105, 0.794);
-    opacity: 0.9;
 }
 
 .img-inicio-news img{
@@ -1132,7 +1134,7 @@ footer {
 .mini-news2 {
     position: relative;
     width: 80%;
-    margin-top: 24rem;
+    margin-top: 31rem;
     margin-bottom: 25%;
     margin-left: 10%;
     margin-right: 10%;
@@ -1168,6 +1170,9 @@ footer {
     display: grid;
     grid-template-columns: repeat(17, 1fr);
     grid-template-rows: repeat(8, 6rem);
+}
+.new2{
+    border: rgba(0, 0, 0, 0.431) 1px solid;
 }
 
 .new2:hover{ 
@@ -1296,21 +1301,44 @@ footer {
     margin-right: 10%;
 }
 
+.titulo-aba{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 11%;
+}
+
+.titulo-aba h1{
+    color: #fff;
+    font-family: "montserrat1";
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    margin-top: -4rem;
+}
+
+.titulo-aba h2{
+    text-align: center;
+    font-family: "montserrat1";
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    color: #fff;
+    opacity: 0.2;
+}
+
 .titulo-news1 {
     width: 100%;
     margin-top: 10vh;
     margin-bottom: 14rem;
     height: 90vh;
-  }
+}
 
 .titulo-news1 h1{
-    color: rgb(255, 255, 255);
-    
+    color: #fff;
     text-align: center;
     font-family: "montserrat1";
     font-size: 4.5rem;
     text-transform: uppercase;
-    margin-top: -9rem;
+    margin-top: -8rem;
     opacity: 0.2;
 }
 
@@ -1330,13 +1358,47 @@ footer {
     font-size: 1.3rem;
 }
 
+/*titulo 1 da news*/
+.titulo-news-princ {
+    position: absolute;
+    width: 100%;
+    margin-top: 25rem;
+    margin-bottom: 3rem;
+}
+
+.titulo-news-princ h1{
+    color: rgb(15, 6, 70);
+    line-height: 3rem;
+    text-align: center;
+    font-family: "montserrat1";
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+}
+
+.titulo-news-princ h2{
+    line-height: 0.1rem;
+    text-align: center;
+    font-family: "montserrat1";
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.048);
+}
+
+.titulo-news-princ p{
+    color: rgb(15, 6, 70);
+    text-align: center;
+    font-family: "montserrat2";
+    font-size: 1.3rem;
+}
+
 /*titulo2*/
 .titulo-news2 {
     position: absolute;
     width: 100%;
     margin-top: -22rem;
     margin-bottom: 3rem;
-  }
+}
 
 .titulo-news2 h1{
     color: rgb(15, 6, 70);
@@ -1528,13 +1590,12 @@ footer {
     object-fit: cover;
     width: 100%;
     height: 65vh;
-    background-color: rgba(0, 0, 0, 0.678);
+    background-color: rgb(0, 60, 75);
 }
-
 .img-inicio-contato img{
     width: 100%; /* Essa class vai ocupa 100% da LARGURA do header */
     height: 100vh; /* Essa class vai ocupa 100% da ALTURA do header */
-    opacity: 0.45; /*opacidade*/
+    opacity: 0.3; /*opacidade*/
 }
 
 .texto-contato {
@@ -1565,10 +1626,51 @@ footer {
     max-width: 40rem;
 }
 
+/*midias contato*/
+
+.midias-contato {
+    position: relative;
+    top: -37vh;
+    margin-left: 50rem;
+    width: 40rem;
+    height: 25.5rem;
+}
+
+.midias-contato img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.midias-contato h1{
+    font-family: "montserrat1";
+}
+
+.midias-contato li{
+    padding-top: 20px;
+}
+
+.midias-contato a{
+    margin-left: 0.5rem;
+}
+
+.midias-contato li img{
+    max-width: 2rem;
+    max-height: 2rem;
+ 
+}
+
 .traco3{
     width: 3rem;
     margin-left: 4rem;
     margin-bottom: 1.5rem;
+    border: chocolate 2px solid;
+}
+
+.traco4{
+    width: 3rem;
+    margin-top: -1rem;
+    margin-left: 0rem;
+    margin-bottom: 1.2rem;
     border: chocolate 2px solid;
 }
 
@@ -1588,19 +1690,6 @@ footer {
 
 .textarea {
     height: 150px;
-}
-
-.midias-contato {
-    position: relative;
-    top: -32vh;
-    margin-left: 50rem;
-    width: 40rem;
-    height: 25.5rem;
-}
-
-.midias-contato img{
-    max-width: 100%;
-    max-height: 100%;
 }
 
 .bnt-contato input{ 
@@ -1626,13 +1715,11 @@ footer {
     .menu ul{
         list-style: none;
         position: relative;
-        left: 23%; /*Afastamento da esquerda*/
+        left: 16%; /*Afastamento da esquerda*/
         top: -1rem;
     }
 
 }
-
-
 
 @media (max-width: 1191px){
    
