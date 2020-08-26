@@ -169,7 +169,6 @@ body {
 .corpo-site img{
     width: 100%;
     max-height: 45vh;
-    margin-bottom: 3rem;
 }
 
 .corpo-site h1{
@@ -179,7 +178,6 @@ body {
     font-family: "montserrat1";
     font-size: 2.5rem;
     text-transform: uppercase;
-    margin-bottom: 3rem;
 }
 
 .corpo-site h2{
@@ -206,7 +204,6 @@ body {
 .corpo-site button{
     font-family: "montserrat3", serif;
     color: #fff;
-
     background: rgb(236, 103, 8);
     padding: 1rem 2rem; /*espaçamento de cima e baixo, em seguida espaçamento da direita e esquerda*/
     border: none;
@@ -1311,7 +1308,7 @@ footer {
 .titulo-aba h1{
     color: #fff;
     font-family: "montserrat1";
-    font-size: 4.5rem;
+    font-size: 2.5rem;
     text-transform: uppercase;
     margin-top: -4rem;
 }
@@ -1336,7 +1333,7 @@ footer {
     color: #fff;
     text-align: center;
     font-family: "montserrat1";
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     text-transform: uppercase;
     margin-top: -8rem;
     opacity: 0.2;
@@ -1345,7 +1342,7 @@ footer {
 .titulo-news1 h2{
     text-align: center;
     font-family: "montserrat1";
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     text-transform: uppercase;
     color: #fff;
     margin-top: -10rem;
@@ -1710,7 +1707,7 @@ footer {
     position: relative;
     width: 100%;
     height: 30vh;
-    margin-top: 80vh;
+    margin-top: 54vh;
     margin-bottom: 3rem;
 }
 
@@ -1720,14 +1717,13 @@ footer {
     font-family: "montserrat3";
     text-align: justify;
     margin-left: 10%;
-    margin-right: 60%;
+    margin-right: 58%;
 }
 
 .img-saiba-mais{
     width: 100%;
     height: 35vh;
-    margin-top: -34.5vh;
-    
+    margin-top: -32.5vh;
 }
 
 .img-saiba-mais img{
@@ -1752,6 +1748,43 @@ footer {
 /* media queries */
 
 
+@media (min-width: 1494px) {
+
+    .banner p{
+        margin-top: -32rem;
+    }
+
+    .banner img {
+        left: 10rem;
+        width: 50rem;
+    }
+
+    .banner p {
+        font-size: 1.25rem;
+        line-height: 1rem;
+        font-size: 1.6rem;
+    }
+
+    .menu ul{
+        list-style: none;
+        position: relative;
+        left: 29%; /*Afastamento da esquerda*/
+        top: -1rem;
+    }
+
+    .netto{
+        margin-top: 19vh;
+        margin-left: -35.7rem;
+        width: 100px;
+        height: 160vh;
+    }
+
+    .netto img{
+        min-width: 15rem;
+        height: 38.5rem;
+    }
+    
+}
 
 @media (max-width: 1270px) {
     .menu ul{
@@ -1847,6 +1880,65 @@ footer {
     }
 }
 
-@media (max-width: 100px) {
-    
+@media (max-width: 1000px) {
+    .logo img{
+        min-width: 210px;
+        min-height: 162px;
+    }
+
+    .netto img{
+        max-width: 70rem;
+        height: 37.5rem;
+        margin-left: 3.2rem;
+    }
+}
+
+@media (max-width: 900px){
+    .logo img{
+        min-width: 190px;
+        min-height: 150px;
+    }
+
+    .netto img{
+        max-width: 60rem;
+        height: 39.5rem;
+        margin-left: 5.2rem;
+    }
+
+    .banner img {
+        left: 10rem;
+        width: 30rem;
+    }
+
+    .banner p {
+        font-size: 1rem;
+        line-height: 17rem;
+    }
+
+    .corpo-site button{
+        margin-top: 0rem;
+    }
+
+    .bnt-inicio {
+        width: 100%;
+        position: absolute;
+        text-align: right;
+        margin-top: 8rem;
+        z-index: 100;
+    }
+
+}
+
+@media (max-width: 768px){
+    .logo img{
+        min-width: 150px;
+        min-height: 140px;
+        margin-left: -1rem;
+    }
+
+    .netto img{
+        max-width: 70rem;
+        height: 31.8rem;
+        margin-left: 8.2rem;
+    }
 }
