@@ -6,6 +6,9 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+        
     </head>
 
 <body>
@@ -22,6 +25,7 @@
                         <li class="nav__menu-intem"><a href="propostas.html">Propostas</a></li>    
                         <li class="nav__menu-intem"><a href="news.html">Notícias</a></li>
                         <li class="nav__menu-intem"><a href="eventos.html">Eventos</a></li>
+                        <li class="nav__menu-intem"><a href="eventos.html">Fotos</a></li>
                         <li class="nav__menu-intem"><a href="contato.html">Contato</a></li>
                     </ul>
                 </div>
@@ -47,7 +51,7 @@
     <div class="netto">
         <img src="/imagens/netto-sem-fundo preto-sem-logo-site.png">
     </div>
-   
+
 <!-- TEXTO --> 
     <div class="banner">
             <!--<h1>Texto Texto Texto Texto Texto Texto Texto Texto</h1>-->
@@ -60,6 +64,57 @@
             <p>Pré-candidato a vereador de belém</p>
     </div>
   
+<!-- CARROSSEL FOTOS -->
+
+<section class="carousel-fotos" aria-label="Gallery">
+    <ol class="carousel-fotos__viewport">
+      <li id="carousel-fotos__slide11" tabindex="0" class="carousel-fotos__slide"> <!--ONCLINK NA IMG-->
+        <div class="carousel-fotos__snapper"></div>
+          <a href="#carousel-fotos__slide41" class="carousel-fotos__prev">Go to last slide1</a>
+          <a href="#carousel-fotos__slide21" class="carousel-fotos__next2">Go to next slide1</a>
+          <img src="/imagens/belem.jpg" alt="" style="width: 100%;">
+      </li>
+      <li id="carousel-fotos__slide21" tabindex="0" class="carousel-fotos__slide">
+        <div class="carousel-fotos__snapper"></div>
+        <a href="#carousel-fotos__slide11" class="carousel-fotos__prev">Go to previous slide1</a>
+        <a href="#carousel-fotos__slide31" class="carousel-fotos__next2">Go to next slide1</a>
+        <img src="/imagens/documentos.jpg" alt="" style="width: 100%;">
+      </li>
+      <li id="carousel-fotos__slide31" tabindex="0" class="carousel-fotos__slide">
+        <div class="carousel-fotos__snapper"></div>
+        <a href="#carousel-fotos__slide21" class="carousel-fotos__prev">Go to previous slide1</a>
+        <a href="#carousel-fotos__slide41" class="carousel-fotos__next2">Go to next slide1</a>
+        <img src="/imagens/news.jpg" alt="" style="width: 100%;">
+      </li>
+  <li id="carousel-fotos__slide41" tabindex="0" class="carousel-fotos__slide">
+        <div class="carousel-fotos__snapper"></div>
+        <a href="#carousel-fotos__slide31" class="carousel-fotos__prev">Go to previous slide1</a>
+        <a href="#carousel-fotos__slide11" class="carousel-fotos__next2">Go to first slide1</a>
+        <img src="/imagens/documentos.jpg" alt="" style="width: 100%;">
+      </li>
+    </ol>
+    <aside class="carousel-fotos__navigation">
+      <ol class="carousel-fotos__navigation-list">
+        <li class="carousel-fotos__navigation-item">
+          <a href="#carousel-fotos__slide11" class="carousel-fotos__navigation-button2">Go to slide 11</a>
+        </li>
+        <li class="carousel-fotos__navigation-item">
+          <a href="#carousel-fotos__slide21" class="carousel-fotos__navigation-button2">Go to slide 21</a>
+        </li>
+        <li class="carousel-fotos__navigation-item">
+          <a href="#carousel-fotos__slide31" class="carousel-fotos__navigation-button2">Go to slide 31</a>
+        </li>
+        <li class="carousel-fotos__navigation-item">
+          <a href="#carousel-fotos__slide41" class="carousel-fotos__navigation-button2">Go to slide 41</a>
+        </li>
+      </ol>
+    </aside>
+  </section>
+<div class="bnt-geral-fotos">
+    <a href="fotos.html"><button>Ver tudo</button></a>
+</div>
+
+
 <!-- CORPO DO SITE -->
     <div class="corpo-site">
             <h2>Visão, Missão e Valores</h2>
@@ -120,7 +175,6 @@
     </div>-->
 
 <!-- CARROUSEL COTEUDO-->
-
 <div class="titulo-carrosel">
     <h2>Últimas Notícias</h2>
     <h1>Últimas Notícias</h1>
@@ -352,7 +406,7 @@
 </section>
 
 <div class="bnt-geral-eventos">
-    <button><a href="#">Ver tudo</a></button>
+    <a href="news.html"><button>Ver tudo</button></a>
 </div>
 
 
@@ -398,7 +452,7 @@
                     </div>
                 </div>
                 <div class="bnt-news">
-                    <button><a href="#">Ver tudo</a></button>
+                    <button><a href="eventos.html">Ver tudo</a></button>
                 </div>
             </section> 
     </div>
@@ -437,9 +491,7 @@
         </div>
 -->
 <footer class="footer">  
-    <div class="copyright">
-            <h1>@2020 Netto Marques.Todos os direitos reservados</h1>
-        </div>
+    <h1>&copy; 2020 Netto Marques.Todos os direitos reservados</h1>
 </footer>
 </body>
 </html>
