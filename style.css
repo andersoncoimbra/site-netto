@@ -103,6 +103,7 @@ body {
 .menu .apoia li a{
     border: none; /* tira as bordas do botao apoia */
     margin-left: -30px;
+    width: 220px;
 }
 
 .menu .apoia li a:hover {
@@ -153,6 +154,7 @@ body {
 }
 
 .netto img{
+    margin-left: 2rem;
     height: 38.5rem;
 }
 
@@ -353,6 +355,36 @@ body {
     }
   }
 
+.titulo-carrosel-fotos {
+    margin-top: -10rem;
+}
+
+.titulo-carrosel-fotos h1{
+    color: rgb(15, 6, 70);
+    line-height: 3rem;
+    text-align: center;
+    font-family: "montserrat1";
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 14rem;
+}
+
+.titulo-carrosel-fotos h2{
+    line-height: 0.1rem;
+    text-align: center;
+    font-family: "montserrat1";
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.048);
+}
+
+.titulo-carrosel-fotos p{
+    color: rgb(15, 6, 70);
+    text-align: center;
+    font-family: "montserrat2";
+    font-size: 1.3rem;
+}
+
 .carousel-fotos {
     position: relative;
     filter: drop-shadow(0 0 10px #0003);
@@ -361,7 +393,7 @@ body {
     height: 33rem;
     margin-left: 7%;
     margin-bottom: 45rem;
-    margin-top: -27.7rem;
+    margin-top: -10.7rem;
 }
 
 .carousel-fotos__viewport {
@@ -552,7 +584,7 @@ body {
     align-items: center;
     z-index: 1;
     transform: translateY(100px);
-    margin-left: 4rem;
+    margin-left: 5rem;
 }
 
 .coteudo .card:hover .face.face1 {
@@ -591,7 +623,7 @@ body {
     box-sizing: border-box;
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
     transform: translateY(-100px);
-    margin-left: 4rem;
+    margin-left: 5rem;
 }
 
 .coteudo .card:hover .face.face2 {
@@ -631,11 +663,34 @@ body {
 .netto{
     margin-top: 24vh;
     margin-left: -33.7rem;
-    margin-bottom: 20rem;
     width: 100%;
     height: 100vh;
     z-index: 100;
     text-align: 6rem;
+}
+
+@media (max-width: 1300px){
+    .netto{
+        margin-top: 18vh;
+        margin-left: -33.7rem;
+        margin-bottom: 3rem;
+        width: 100%;
+        height: 100vh;
+        z-index: 100;
+        text-align: 6rem;
+    }
+}
+
+@media (max-width: 1183px){
+    .netto{
+        margin-top: vh;
+        margin-left: -33.7rem;
+        margin-bottom: 3rem;
+        width: 100%;
+        height: 100vh;
+        z-index: 100;
+        text-align: 6rem;
+    }
 }
 
 .netto img{
@@ -946,6 +1001,10 @@ ol, li {
     width: 100%;
     counter-increment: item;
 }
+
+.carousel #extra{
+    display: none;
+}
   
 .carousel__slide:before {
     position: absolute;
@@ -1064,7 +1123,7 @@ ol, li {
   
 .bnt-geral-eventos{
     margin-top: 1.5rem;
-    width: 100%;
+
     text-align: center;
 }
 
@@ -2071,6 +2130,70 @@ ol, li {
 
 }
 
+/*aba fotos*/
+
+.cotainer-fotos{ 
+    position: relative;
+    width: 80%;
+    margin-top: 51.5vh;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.cotainer-fotos2 {
+    position: relative;
+    width: 80%;
+    margin-top: 5rem;
+    margin-bottom: 6.5rem;
+    margin-left: 10%;
+    margin-right: 10%;    
+}
+
+.news {
+    display: grid;
+    grid-template-columns: repeat(17, 1fr);
+    grid-template-rows: repeat(4, 6rem);
+}
+
+.new{ 
+    border: rgba(0, 0, 0, 0.431) 1px solid;
+}
+
+.new:hover {
+    background: rgb(4, 14, 71);
+    transition-delay: 0.1s;
+}
+
+.new:hover p{
+    color: rgb(255, 255, 255);
+}
+
+
+.new:hover h1{
+    color: rgb(255, 255, 255);
+}
+
+.new-texto:hover button{
+    color: white;
+}
+
+.new:nth-child(1){
+    grid-column: 1 / 6;
+    grid-row: 1 / 5;
+}
+
+.new:nth-child(2){
+    grid-column: 7 / 12;
+    grid-row: 1 / 5;
+}
+
+.new:nth-child(3){
+    grid-column: 13 / 18;
+    grid-row: 1 / 5;
+}
+
+
+
 /* media queries */
 
 
@@ -2109,8 +2232,12 @@ ol, li {
         min-width: 15rem;
         height: 38.5rem;
     }
-    
 }
+    .coteudo .card {
+        position: relative;
+        margin-left: -3rem;
+    }
+    
 
 @media (max-width: 1270px) {
     .menu ul{
@@ -2138,6 +2265,23 @@ ol, li {
     .banner p {
         font-size: 1.35rem;
     }
+    .netto{
+        margin-top: 18vh;
+        margin-left: -32.7rem;
+        margin-bottom: 3rem;
+        width: 100%;
+        height: 100vh;
+        z-index: 100;
+        text-align: 6rem;
+        }
+    .bnt-inicio button{
+        margin-top: -1rem;
+    }
+
+    .carousel #extra{
+        display: inline-block;
+    }
+
 }
 
 @media (max-width: 1213px){
@@ -2169,25 +2313,33 @@ ol, li {
         line-height: 2.2rem;
     }
 
+
 }
 
 @media (max-width: 1188px){
     .nav-menu2 li#midia3{
         display: none;
     }
-
-    .netto img{
-        max-width: 70rem;
-        height: 38.5rem;
-        margin-left: 3.2rem;
+    .netto{
+        margin-top: 18vh;
+        margin-left: -31.7rem;
+        margin-bottom: 3rem;
+        width: 100%;
+        height: 100vh;
+        z-index: 100;
+        text-align: 6rem;
     }
 
+    .netto img{
+        margin-left: 2rem;
+    }
 }
 
 @media (max-width: 1140px){
     .nav-menu2 li#midia2{
         display: none;
     }
+
 }
 
 @media (max-width: 1085px){
@@ -2204,7 +2356,14 @@ ol, li {
         font-size: 1.25rem;
         line-height: 8rem;
     }
-}
+    .netto img{
+        margin-left: 3rem;
+    }
+    .bnt-inicio button{
+        margin-top: -4rem;
+    }
+
+}   
 
 @media (max-width: 1000px) {
     .logo img{
@@ -2212,23 +2371,19 @@ ol, li {
         min-height: 162px;
     }
 
-    .netto img{
-        max-width: 70rem;
-        height: 37.5rem;
-        margin-left: 3.2rem;
+    .nav-menu{
+        display: none;
     }
+    .menu .apoia{
+        margin-left: 19.5rem;
+    }
+
 }
 
 @media (max-width: 900px){
     .logo img{
         min-width: 190px;
         min-height: 150px;
-    }
-
-    .netto img{
-        max-width: 60rem;
-        height: 39.5rem;
-        margin-left: 5.2rem;
     }
 
     .banner img {
@@ -2260,11 +2415,5 @@ ol, li {
         min-width: 150px;
         min-height: 140px;
         margin-left: -1rem;
-    }
-
-    .netto img{
-        max-width: 70rem;
-        height: 31.8rem;
-        margin-left: 8.2rem;
     }
 }

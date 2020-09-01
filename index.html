@@ -7,14 +7,11 @@
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-        
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>    
     </head>
 
 <body>
-
 <!-- MENU NOVO -->
-
     <div class="img-inicio">
         <img src="/imagens/netto-fundo-site.png">
     </div>   
@@ -65,6 +62,10 @@
     </div>
   
 <!-- CARROSSEL FOTOS -->
+<div class="titulo-carrosel-fotos">
+    <h2>Últimas Fotos</h2>
+    <h1>Últimas Fotos</h1>
+</div>
 
 <section class="carousel-fotos" aria-label="Gallery">
     <ol class="carousel-fotos__viewport">
@@ -335,7 +336,7 @@
         </div>
       </div>
     </li>
-<li id="carousel__slide4" tabindex="0" class="carousel__slide">
+    <li id="carousel__slide4" tabindex="0" class="carousel__slide">
       <div class="carousel__snapper"></div>
       <a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a>
       <a href="#carousel__slide1" class="carousel__next">Go to first slide</a>
@@ -355,7 +356,7 @@
             </div>
         </div>
 
-        <div class="card">
+        <div id="card2" class="card">
             <div class="face face1">
                 <div class="content">
                     <img id= "alteracao" src="/imagens/coteudo1.png">
@@ -386,6 +387,11 @@
         </div>
       </div>
     </li>
+    <li id="carousel__slide5" tabindex="0" class="carousel__slide">
+        <div class="carousel__snapper"></div>
+        <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
+        <a href="#carousel__slide3" class="carousel__next">Go to next slide</a>
+      </li>
   </ol>
   <aside class="carousel__navigation">
     <ol class="carousel__navigation-list">
@@ -401,12 +407,15 @@
       <li class="carousel__navigation-item">
         <a href="#carousel__slide4" class="carousel__navigation-button">Go to slide 4</a>
       </li>
+      <li id="extra" class="carousel__navigation-item">
+        <a href="#carousel__slide5" class="carousel__navigation-button">Go to slide 5</a>
+      </li>
     </ol>
   </aside>
 </section>
 
 <div class="bnt-geral-eventos">
-    <a href="news.html"><button>Ver tudo</button></a>
+    <button><a href="news.html">Ver tudo</a></button>
 </div>
 
 
