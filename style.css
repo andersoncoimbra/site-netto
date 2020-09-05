@@ -2321,7 +2321,7 @@ ol, li {
         display: none;
     }
     .netto{
-        margin-top: 18vh;
+        margin-top: 21.3vh;
         margin-left: -31.7rem;
         margin-bottom: 3rem;
         width: 100%;
@@ -2385,6 +2385,10 @@ ol, li {
         min-width: 190px;
         min-height: 150px;
     }
+    
+    .menu .apoia li{
+    margin-left: 14rem;
+    }
 
     .banner img {
         left: 10rem;
@@ -2396,6 +2400,17 @@ ol, li {
         line-height: 17rem;
     }
 
+    .netto{
+        margin-top: 25.7vh;
+        margin-left: -30rem;
+        }
+
+    .netto img {
+        max-width: 70rem;
+        height: 38.5rem;
+    }
+
+
     .corpo-site button{
         margin-top: 0rem;
     }
@@ -2404,7 +2419,7 @@ ol, li {
         width: 100%;
         position: absolute;
         text-align: right;
-        margin-top: 8rem;
+        margin-top: 14rem;
         z-index: 100;
     }
 
