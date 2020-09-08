@@ -1,0 +1,94 @@
+.img-inicio{
+    background-image: url(/imagens/netto-fundo-site.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+.container #logo-top{
+    width: 200px;
+}
+
+/*CSS MENU*/
+
+.ml-auto, .mx-auto #ul-menu{
+    margin-top: -8px;
+}
+
+.text-primary{
+    color: rgb(0, 30, 60);
+}
+
+nav ul li a{
+    text-transform: uppercase;
+}
+
+nav ul a:hover{
+    background: rgba(210, 105, 30, 0.250);
+    border-bottom: solid 2.5px chocolate;
+}
+
+nav ul a img{
+    width: 20px;
+}
+
+/*MENU TOGGLER*/
+.navbar-nav .nav-link {
+    text-align: center;
+}
+
+/* IMG DO NETTO */
+
+.container #img-netto{
+    margin-top: -2.6rem;
+}
+
+@media (max-width: 1200px){ 
+    .container #img-netto{
+        padding-top: 6rem;
+    }
+}
+
+@media (max-width: 991px){
+    .container #img-netto{
+        padding-top: 14rem;
+    }
+}
+
+@media (max-width: 767px){
+    .container #img-netto{
+        padding-top: 20rem;
+    }
+}
+
+@media (max-width: 522px){
+    .container #img-netto{
+        padding-top: 21.8rem;
+    }
+} 
+
+/*IMG INICIO*/
+.bnt-inicio p{
+    margin-right: 2rem;
+    font-family: ;
+    font-size: 1.45rem;
+    text-transform: uppercase;
+    text-align: right;
+    color:#fff;
+    text-shadow: .1rem .1rem 1px rgba(0, 0, 0, .4);
+    margin-top: 1rem;
+}
+
+.bnt-inicio a button{
+    margin-right: 2rem;
+    color: #fff;
+    background:  chocolate;
+    padding: 1rem 2rem; /*espaçamento de cima e baixo, em seguida espaçamento da direita e esquerda*/
+    border: none;
+    border-radius: 5px; /*arredondamento da borda*/
+    cursor: pointer;
+    float: right; /*alinhar uma div a direita*/
+}
+
+.bnt-inicio button:hover {
+    background: rgb(15, 6, 70);
+}
