@@ -1,3 +1,6 @@
+body{ 
+    overflow-x: hidden;
+}
 .img-inicio{
     background-image: url(/imagens/netto-fundo-site.png);
     background-size: cover;
@@ -58,12 +61,21 @@ nav ul a img{
 }
 
 /* IMG DO NETTO */
-
 .container #img-netto{
     margin-top: -2.6rem;
 }
 
-@media (max-width: 1200px){ 
+.container #img-netto img{
+    height: 100%;
+}
+
+.container-netto{
+    background-image: url(/imagens/netto-sem-fundo\ preto-sem-logo-site.png);
+    background-size: cover;
+    height: 72.3vh;
+}
+
+/* @media (max-width: 1200px){ 
     .container #img-netto{
         padding-top: 6rem;
     }
@@ -85,7 +97,7 @@ nav ul a img{
     .container #img-netto{
         padding-top: 21.8rem;
     }
-} 
+}  */
 
 /*IMG INICIO*/
 .bnt-inicio p{
@@ -111,4 +123,19 @@ nav ul a img{
 
 .bnt-inicio button:hover {
     background: rgb(15, 6, 70);
+}
+
+
+/*carrosel*/
+
+.ol #controle-carrosel{
+    margin-bottom: 20rem;
+}
+.teste img{
+    width: 500px;
+    height: 600px;
+}
+
+.container #controle-carrousel{
+    margin-top: 2rem;
 }
