@@ -79,10 +79,13 @@ nav ul a img{
     border: none;
 }
 
+
 /*MENU TOGGLER*/
-.navbar-light .navbar-toggler{   /*HAMBURGUER DO MENU*/
-    margin-top: -6rem;
+
+.navbar-light .navbar-toggler{
+    background: rgb(195, 124, 16)
 }
+
 /*titulos*/
 
 #titulo {
@@ -103,20 +106,6 @@ nav ul a img{
     text-align: center;
 }
 
-/* IMG DO NETTO */
-.container #img-netto{
-    margin-top: -2.6rem;
-}
-
-.container #img-netto img{
-    height: 100%;
-}
-
-.container-netto{
-    background-image: url(/imagens/netto-sem-fundo\ preto-sem-logo-site.png);
-    background-size: cover;
-    height: 72.3vh;
-}
 
 /* @media (max-width: 1200px){ 
     .container #img-netto{
@@ -168,8 +157,32 @@ nav ul a img{
     background: rgb(15, 6, 70);
 }
 
+.bnt-saiba {
+    /* margin-right: 2.3rem;
+    margin-top: 22rem; */
+    position: absolute;
+    bottom: 300px;
+    left: 61%;
+    color: #fff;
+    background-color: rgb(195, 124, 16);
+    width: 130px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    border: none;
+    font-family: fonte2;
+    text-transform: uppercase;
+}
+
+.bnt-saiba:hover{
+    background: rgb(11, 63, 93);
+}
+
 .bnt-videos{
     margin-bottom: 0.4rem;
+    margin-right: 5px;
     width: 250px;
     height: 50px;
     color: black;
@@ -181,7 +194,6 @@ nav ul a img{
     font-family: fonte2;
     text-transform: uppercase;
     font-size: 0.8rem;
-    margin-right: 5px;
 }
 
 .bnt-videos img{
@@ -240,12 +252,12 @@ nav ul a img{
     padding-right: 5px;
 }
 
-
 /*carrosel*/
 
 .ol #controle-carrosel{
     margin-bottom: 20rem;
 }
+
 .teste img{
     width: 500px;
     height: 600px;
@@ -255,6 +267,14 @@ nav ul a img{
     margin-top: 2rem;
 }
 
+.carousel-control-prev-icon{
+    background: red;
+}
+
+span .control{
+    background: red;
+}
+    
 /*rodape*/
 .footer {
     width: 100%;
@@ -274,5 +294,37 @@ nav ul a img{
   }
 
 /* media queries */
-@media (max-width: 1353px){ 
+@media (max-width: 1200px){ 
+    .bnt-saiba{
+        bottom: 320px;
+        left: 61%;
+    }
 }
+
+@media (max-width: 991.98px) { 
+    .bnt-saiba{
+        bottom: 320px;
+        left: 74%;
+    }
+ }
+
+ @media (max-width: 767.98px) {
+    .bnt-saiba{
+        bottom: 10px;
+        left: 45%;
+        right: 45%;
+    }
+
+    .carousel-control-next{
+        margin-right: -4.8rem;
+    }
+}
+
+@media (max-width: 575.98px) { 
+    .bnt-saiba{
+        bottom: 10px;
+        left: 30%;
+        right: 45%;
+    }
+ }
+
