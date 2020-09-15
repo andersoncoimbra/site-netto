@@ -335,6 +335,40 @@ span .control{
     background-color: rgb(0, 30, 60);
 }
 
+.texto-contato {
+    max-width: 40rem;
+}
+
+.texto-contato h1{
+    font-family: "montserrat1";
+    margin-left: 4rem;
+}
+
+.texto-contato p{
+    font-family: "montserrat3";
+    margin-left: 4rem;
+    width: 600px;
+}
+
+.container-contato{
+    margin-left: 4rem;
+    display: flex;
+}
+
+#coluna1-contato{
+    margin-right: 5px;
+}
+
+#coluna2-contato{
+    margin-right: 5px;
+    margin-top: -1.2rem;
+}
+
+#coluna3-contato{
+    margin-right: 8px;
+    margin-top: -1.2rem;
+}
+
 .midias-contato {
     position: relative;
     top: -28vh;
@@ -523,6 +557,22 @@ span .control{
         height: 500px; 
         margin-bottom: 2rem;
     }
+
+        /*contato*/
+        #coluna1-contato{
+            margin-right: 5px;
+        }
+        
+        #coluna2-contato{
+            margin-right: 5px;
+            margin-left: 28rem;
+            margin-top: -4.5rem;
+        }
+        
+        #coluna3-contato{
+            margin-left: 2.5rem;
+            margin-top: 14.2rem;
+        }
 }
 
 @media (max-width: 1024px){/*extra*/
@@ -547,6 +597,23 @@ span .control{
         height: 500px; 
         margin-bottom: 2rem;
     }
+
+            /*contato*/
+            #coluna1-contato{
+                margin-right: 5px;
+                margin-left: 5%
+            }
+                
+            #coluna2-contato{
+                margin-right: 5px;
+                margin-left: 5%;
+                margin-top: -1rem;
+            }
+        
+            #coluna3-contato{
+                margin-left: 9%;
+                margin-top: 15.2rem;
+            }
 
 }
 
@@ -580,6 +647,23 @@ span .control{
         height: 500px; 
         margin-bottom: 2rem;
     }
+
+        /*contato*/
+        #coluna1-contato{
+            margin-right: 5px;
+            margin-left: 5%
+        }
+            
+        #coluna2-contato{
+            margin-right: 5px;
+            margin-left: 10%;
+            margin-top: 24rem;
+        }
+    
+        #coluna3-contato{
+            margin-left: 10%;
+            margin-top: 1.2rem;
+        }
 }
 
 @media (max-width: 575.98px) { 
@@ -614,6 +698,23 @@ span .control{
         height: 400px; 
         margin-bottom: 2rem;
     }
+
+    /*contato*/
+    #coluna1-contato{
+        margin-right: 5px;
+        margin-left: 10%;
+    }
+        
+    #coluna2-contato{
+        margin-right: 5px;
+        margin-left: 17%;
+        margin-top: 24rem;
+    }
+
+    #coluna3-contato{
+        margin-left: 17%;
+        margin-top: 1.2rem;
+    }
  }
 
 /*extra*/
@@ -646,6 +747,23 @@ span .control{
         left: 28%;
         right: 45%;
     }
+
+        /*contato*/
+        #coluna1-contato{
+            margin-right: 5px;
+            margin-left: 10%;
+        }
+            
+        #coluna2-contato{
+            margin-right: 5px;
+            margin-left: 23%;
+            margin-top: 24rem;
+        }
+    
+        #coluna3-contato{
+            margin-left: 23%;
+            margin-top: 1.2rem;
+        }
 }
 
 

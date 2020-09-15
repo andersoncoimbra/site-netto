@@ -1872,28 +1872,8 @@ ol, li {
     color: rgb(15, 6, 70);
 }
 
-.texto-contato {
-    max-width: 40rem;
 
-}
 
-.texto-contato h1{
-    font-family: "montserrat1";
-    margin-left: 4rem;
-}
-
-.texto-contato p{
-    font-family: "montserrat3";
-    margin-left: 4rem;
-    width: 600px;
-}
-
-.container-contato{
-    margin-top: 5vh;
-    margin-left: 4rem;
-    margin-bottom: 5rem;
-    display: flex;
-}
 
 .ficha-contato {
     width: 100%;
