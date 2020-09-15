@@ -124,31 +124,6 @@ nav ul a img{
     text-align: center;
 }
 
-
-/* @media (max-width: 1200px){ 
-    .container #img-netto{
-        padding-top: 6rem;
-    }
-}
-
-@media (max-width: 991px){
-    .container #img-netto{
-        padding-top: 14rem;
-    }
-}
-
-@media (max-width: 767px){
-    .container #img-netto{
-        padding-top: 20rem;
-    }
-}
-
-@media (max-width: 522px){
-    .container #img-netto{
-        padding-top: 21.8rem;
-    }
-}  */
-
 /*IMG INICIO*/
 .bnt-inicio p{
     margin-right: 2rem;
@@ -465,8 +440,8 @@ span .control{
 /* media queries */
 @media (max-width: 2000px){
     .bnt-saiba{
-        bottom: 485px;
-        left: 61%;
+        bottom: 410px;
+        left: 62%;
     }
 }
 
@@ -508,6 +483,8 @@ span .control{
     text-transform: uppercase;
 }
 }
+
+
 @media (max-width: 1200px){ 
     .bnt-saiba{
         bottom: 320px;
@@ -518,6 +495,25 @@ span .control{
         bottom: 350px;
         left: 61%;
     }
+}
+
+@media (max-width: 1024px){/*extra*/
+    nav ul li a{ /*menu*/
+        text-transform: uppercase;
+        font-family: fonte2;
+        font-size: 15px;
+        padding-left: 5px;
+        padding-right: 15px;
+        border-left: rgba(253, 245, 230, 0.255) 1px solid;
+    }
+
+    .bnt-saiba{ /*bnt saiba mais*/
+        bottom: 415px;
+        left: 45%;
+        right: 10%;
+    }
+
+
 }
 
 @media (max-width: 991.98px) { 
@@ -532,11 +528,10 @@ span .control{
     }
  }
 
- @media (max-width: 767.98px) {
+ @media (max-width: 768.98px) {
     .bnt-saiba{
-        bottom: 10px;
+        bottom: 320px;
         left: 45%;
-        right: 45%;
     }
 
     .bnt-saiba2 {
@@ -552,8 +547,8 @@ span .control{
 
 @media (max-width: 575.98px) { 
     .bnt-saiba{
-        bottom: 10px;
-        left: 30%;
+        bottom: 220px;
+        left: 40%;
         right: 45%;
     }
 
@@ -576,4 +571,25 @@ span .control{
         height: 180px;
     }
  }
+
+/*extra*/
+
+@media (max-width: 360px){
+    .bnt-saiba{
+        bottom: 175px;
+        left: 28%;
+        right: 45%;
+    }
+}
+
+@media (max-width: 320px){
+    .bnt-saiba{
+        bottom: 175px;
+        left: 28%;
+        right: 45%;
+    }
+}
+
+
+
 
