@@ -20,9 +20,9 @@ body{
     overflow-x: hidden;
 }
 .img-inicio{
-    background-image: url(/imagens/capa3.png);
+    background-image: url(/imagens/netto-capa-campanha-site-menor.png);
     background-size: cover;
-    height: 100vh;
+    height: 70vh;
     background-color: rgb(0, 30, 60);
 }
 
@@ -31,6 +31,7 @@ body{
 }
 
 /*CSS MENU*/
+
 
 .ml-auto, .mx-auto #ul-menu{
     margin-top: -8px;
@@ -102,6 +103,23 @@ nav ul a img{
     color: rgb(11, 63, 93);
 }
 
+#titulo-saiba {
+    margin-top: -6.5rem;
+    opacity: 0.1; 
+    font-size: 3.5rem;
+    font-family: fonte1;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#titulo2-saiba {
+    margin-top: -17rem;
+    font-size: 3rem;
+    font-family: fonte1;
+    color: #fff;
+    text-transform: uppercase;
+}
+
 .navbar-nav .nav-link {
     text-align: center;
 }
@@ -165,7 +183,7 @@ nav ul a img{
     left: 61%;
     color: #fff;
     background-color: rgb(195, 124, 16);
-    width: 130px;
+    width: 140px;
     height: 30px;
     border: none;
     border-radius: 5px;
@@ -174,6 +192,7 @@ nav ul a img{
     border: none;
     font-family: fonte2;
     text-transform: uppercase;
+    font-size: 0.9rem;
 }
 
 .bnt-saiba:hover{
@@ -274,7 +293,7 @@ nav ul a img{
 span .control{
     background: red;
 }
-    
+
 /*rodape*/
 .footer {
     width: 100%;
@@ -285,18 +304,218 @@ span .control{
     align-items: center;
   }
   
-  .footer h1{
-      padding-top: 10px;
-      text-align: center;
-      font-family: fonte3;
-      font-size: 0.9rem;
-      color: #fff;
+.footer h1{
+    padding-top: 10px;
+    text-align: center;
+    font-family: fonte3;
+    font-size: 0.9rem;
+    color: #fff;
   }
 
+/* PAGINA SAIBA MAIS */
+.img-inicio-saiba{
+    background-image: url(/imagens/capa-quem-site-menor2.png);
+    background-size: cover;
+    background-color: black;
+    height: 60vh;
+}
+
+.container-saiba{
+    width: 100%;
+    text-align: center;
+}
+
+.container-div{
+    height: 250px;
+}
+
+.bnt-saiba2 {
+    /* margin-right: 2.3rem;
+    margin-top: 22rem; */
+    position: absolute;
+    bottom: 300px;
+    left: 61%;
+    color: #fff;
+    background-color: rgb(195, 124, 16);
+    width: 130px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    border: none;
+    font-family: fonte2;
+    text-transform: uppercase;
+}
+
+.bnt-saiba2:hover{
+    background: rgb(11, 63, 93);
+}
+
+/* PAGINA CONTATO */
+.img-inicio-contato{
+    background-image: url(/imagens/capa-fale-conosco-site-menor.png);
+    background-size: cover;
+    height: 50vh;
+    background-color: rgb(0, 30, 60);
+}
+
+.midias-contato {
+    position: relative;
+    top: -28vh;
+    margin-left: 50rem;
+    width: 40rem;
+    height: 25.5rem;
+}
+
+.midias-contato img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.midias-contato h1{
+    font-family: "montserrat1";
+}
+
+.midias-contato li{
+    padding-top: 20px;
+}
+
+.midias-contato a{
+    margin-left: 0.5rem;
+}
+
+.midias-contato li img{
+    max-width: 2rem;
+    max-height: 2rem;
+ 
+}
+
+.traco3{
+    width: 3rem;
+    margin-left: 4rem;
+    margin-bottom: 1.5rem;
+    border: chocolate 2px solid;
+}
+
+.traco4{
+    width: 3rem;
+    margin-top: -1rem;
+    margin-left: 0rem;
+    margin-bottom: 1.2rem;
+    border: chocolate 2px solid;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.field{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px #DDD solid;
+    border-radius:  5px;
+    font-family: "montserrat3";
+    font-size: 1.2rem;
+}
+
+.textarea {
+    height: 150px;
+}
+
+.bnt-contato input{ 
+    font-family: "montserrat3", serif;
+    color: #fff;
+    background: rgb(236, 103, 8);
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.bnt-contato input:hover{ 
+    background: rgba(1, 12, 73, 0.719);
+}
+
+/*PROPOSTAS*/
+.img-inicio-propostas{
+    background-image: url(/imagens/capa-propostas-site-menor3.png);
+    background-size: cover;
+    background-color: black;
+    height: 50vh;
+}
+
+#titulo2-propostas {
+    margin-top: -17.5rem;
+    opacity: 0.1; 
+    font-size: 4.5rem;
+    font-family: fonte1;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#titulo-propostas {
+    margin-top: -3rem;
+    font-size: 4rem;
+    font-family: fonte1;
+    color: #fff;
+    text-transform: uppercase;
+}
+
 /* media queries */
+@media (max-width: 2000px){
+    .bnt-saiba{
+        bottom: 485px;
+        left: 61%;
+    }
+}
+
+@media (max-width: 1500px){
+    .bnt-saiba{
+        bottom: 365px;
+        left: 62%;
+    }
+
+    #titulo-saiba {
+        margin-top: -5rem;
+        opacity: 0.1; 
+        font-size: 2.5rem;
+        font-family: fonte1;
+        color: #fff;
+    }
+    
+    #titulo2-saiba {
+        margin-top: -13rem;
+        font-size: 2.3rem;
+        font-family: fonte1;
+        color: #fff;
+    }
+
+    #titulo2-propostas {
+    margin-top: -14.5rem;
+    opacity: 0.1; 
+    font-size: 3.5rem;
+    font-family: fonte1;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#titulo-propostas {
+    margin-top: -3rem;
+    font-size: 3rem;
+    font-family: fonte1;
+    color: #fff;
+    text-transform: uppercase;
+}
+}
 @media (max-width: 1200px){ 
     .bnt-saiba{
         bottom: 320px;
+        left: 61%;
+    }
+
+    .bnt-saiba2 {
+        bottom: 350px;
         left: 61%;
     }
 }
@@ -306,12 +525,23 @@ span .control{
         bottom: 320px;
         left: 74%;
     }
+
+    .bnt-saiba2 {
+        bottom: 390px;
+        left: 73%;
+    }
  }
 
  @media (max-width: 767.98px) {
     .bnt-saiba{
         bottom: 10px;
         left: 45%;
+        right: 45%;
+    }
+
+    .bnt-saiba2 {
+        bottom: 170px;
+        left: 35%;
         right: 45%;
     }
 
@@ -325,6 +555,25 @@ span .control{
         bottom: 10px;
         left: 30%;
         right: 45%;
+    }
+
+    #titulo-saiba {
+        margin-top: -5rem;
+        opacity: 0.1; 
+        font-size: 2.5rem;
+        font-family: fonte1;
+        color: #fff;
+    }
+    
+    #titulo2-saiba {
+        margin-top: -17rem;
+        font-size: 2.3rem;
+        font-family: fonte1;
+        color: #fff;
+    }
+
+    .container-div{
+        height: 180px;
     }
  }
 

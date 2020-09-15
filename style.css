@@ -1146,7 +1146,7 @@ ol, li {
 }
 
 /*rodape*/
-
+/* 
 .footer {
   width: 100%;
   background: rgb(4, 14, 71);
@@ -1161,7 +1161,7 @@ ol, li {
     font-family: "montserrat3";
     font-size: 0.9rem;
     color: chocolate;
-}
+} */
 
 /* aba propostas */
 .corpo-propostas{
@@ -1873,7 +1873,7 @@ ol, li {
 }
 
 /* PAGINA CONTATOS */
-.img-inicio-contato {
+/* .img-inicio-contato {
     position: absolute;
     overflow: hidden;
     object-fit: cover;
@@ -1885,11 +1885,11 @@ ol, li {
     width: 100%; /* Essa class vai ocupa 100% da LARGURA do header */
     height: 100vh; /* Essa class vai ocupa 100% da ALTURA do header */
     opacity: 0.3; /*opacidade*/
-}
+} */
 
 .texto-contato {
     max-width: 40rem;
-    margin-top: 50vh;
+
 }
 
 .texto-contato h1{
