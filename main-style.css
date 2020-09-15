@@ -437,6 +437,20 @@ span .control{
     text-transform: uppercase;
 }
 
+#titulo-compromissos{
+    margin-left: 7%;  
+    font-family: fonte1; 
+    text-align: left;
+    font-size: 40px;
+}
+
+#video-propostas{
+    width: 50%; 
+    margin-left: 23%; 
+    height: 500px; 
+    margin-bottom: 2rem;
+}
+
 /* media queries */
 @media (max-width: 2000px){
     .bnt-saiba{
@@ -467,23 +481,30 @@ span .control{
     }
 
     #titulo2-propostas {
-    margin-top: -14.5rem;
-    opacity: 0.1; 
-    font-size: 3.5rem;
-    font-family: fonte1;
-    color: #fff;
-    text-transform: uppercase;
+        margin-top: -14.5rem;
+        opacity: 0.1; 
+        font-size: 3.5rem;
+        font-family: fonte1;
+        color: #fff;
+        text-transform: uppercase;
 }
 
-#titulo-propostas {
-    margin-top: -3rem;
-    font-size: 3rem;
-    font-family: fonte1;
-    color: #fff;
-    text-transform: uppercase;
-}
-}
+    #titulo-propostas {
+        margin-top: -3rem;
+        font-size: 3rem;
+        font-family: fonte1;
+        color: #fff;
+        text-transform: uppercase;
+        }
 
+    #video-propostas{
+        width: 70%; 
+        margin-left: 16%; 
+        height: 500px; 
+        margin-bottom: 2rem;
+        color: rgb(11, 63, 93);
+    }
+}
 
 @media (max-width: 1200px){ 
     .bnt-saiba{
@@ -494,6 +515,13 @@ span .control{
     .bnt-saiba2 {
         bottom: 350px;
         left: 61%;
+    }
+
+    #video-propostas{
+        width: 60%; 
+        margin-left: 23%; 
+        height: 500px; 
+        margin-bottom: 2rem;
     }
 }
 
@@ -513,6 +541,12 @@ span .control{
         right: 10%;
     }
 
+    #video-propostas{
+        width: 60%; 
+        margin-left: 20%; 
+        height: 500px; 
+        margin-bottom: 2rem;
+    }
 
 }
 
@@ -540,8 +574,11 @@ span .control{
         right: 45%;
     }
 
-    .carousel-control-next{
-        margin-right: -4.8rem;
+    #video-propostas{
+        width: 65%; 
+        margin-left: 18%; 
+        height: 500px; 
+        margin-bottom: 2rem;
     }
 }
 
@@ -570,6 +607,13 @@ span .control{
     .container-div{
         height: 180px;
     }
+
+    #video-propostas{
+        width: 70%; 
+        margin-left: 15%; 
+        height: 400px; 
+        margin-bottom: 2rem;
+    }
  }
 
 /*extra*/
@@ -579,6 +623,20 @@ span .control{
         bottom: 175px;
         left: 28%;
         right: 45%;
+    }
+
+    #video-propostas{
+        width: 75%; 
+        margin-left: 12%; 
+        height: 300px; 
+        margin-bottom: 2rem;
+    }
+
+    #titulo-compromissos{
+        margin-left: 7%;  
+        font-family: fonte1; 
+        text-align: left;
+        font-size: 30px;
     }
 }
 
