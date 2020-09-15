@@ -295,6 +295,29 @@ span .control{
     height: 60vh;
 }
 
+#linha-saiba-mais{
+    margin-bottom: 50px; 
+    width: 100%;
+}
+
+#coluna-saiba-mais{
+    width: 680px; 
+    margin-bottom: 2rem; 
+    margin-left: -12rem;
+}
+
+#coluna-saiba-mais-texto{
+    margin-left: -16rem; 
+    margin-right: -15rem;
+}
+
+
+#coluna-saiba-mais-texto p{
+    font-family: fonte2; 
+    text-align: justify; 
+    font-size: 22px;
+}
+
 .container-saiba{
     width: 100%;
     text-align: center;
@@ -538,6 +561,33 @@ span .control{
         margin-bottom: 2rem;
         color: rgb(11, 63, 93);
     }
+
+    #linha-saiba-mais{
+        margin-bottom: 50px; 
+        width: 100%;
+    }
+    
+    #coluna-saiba-mais{
+        width: 550px; 
+        margin-bottom: 2rem; 
+        margin-left: -4rem;
+    }
+    
+    #coluna-saiba-mais-texto{
+        margin-left: -16rem; 
+        margin-right: -15rem;
+    }
+
+    #coluna-saiba-mais-texto{
+        margin-left: -20rem;
+    }   
+
+    #coluna-saiba-mais-texto p{
+        font-family: fonte2; 
+        text-align: justify; 
+        font-size: 19px;
+        width: 80%;
+    }
 }
 
 @media (max-width: 1200px){ 
@@ -572,6 +622,29 @@ span .control{
         #coluna3-contato{
             margin-left: 2.5rem;
             margin-top: 14.2rem;
+        }
+
+        #coluna-saiba-mais{
+            width: 550px; 
+            margin-bottom: 2rem; 
+            margin-left: 20%;
+        }
+        
+        #coluna-saiba-mais-texto{
+            margin-left: -16rem; 
+            margin-right: -15rem;
+        }
+    
+        #coluna-saiba-mais-texto{
+            margin-left: -59rem;
+            margin-top: 25rem;
+        }   
+    
+        #coluna-saiba-mais-texto p{
+            font-family: fonte2; 
+            text-align: justify; 
+            font-size: 19px;
+            width: 92%;
         }
 }
 
@@ -627,6 +700,29 @@ span .control{
         bottom: 390px;
         left: 73%;
     }
+
+    #coluna-saiba-mais{
+        width: 550px; 
+        margin-bottom: 2rem; 
+        margin-left: 10%;
+    }
+    
+    #coluna-saiba-mais-texto{
+        margin-left: -1rem; 
+        margin-right: -1rem;
+    }
+
+    #coluna-saiba-mais-texto{
+        margin-left: -48rem;
+        margin-top: 27rem;
+    }   
+
+    #coluna-saiba-mais-texto p{
+        font-family: fonte2; 
+        text-align: justify; 
+        font-size: 19px;
+        width: 115%;
+    }
  }
 
  @media (max-width: 768.98px) {
@@ -663,6 +759,29 @@ span .control{
         #coluna3-contato{
             margin-left: 10%;
             margin-top: 1.2rem;
+        }
+
+        #coluna-saiba-mais{
+            width: 550px; 
+            margin-bottom: 2rem; 
+            margin-left: 15%;
+        }
+        
+        #coluna-saiba-mais-texto{
+            margin-left: -47rem;
+            margin-top: 27rem;
+        }
+    
+        #coluna-saiba-mais-texto{
+            margin-left: -35rem;
+            margin-top: 27rem;
+        }   
+    
+        #coluna-saiba-mais-texto p{
+            font-family: fonte2; 
+            text-align: justify; 
+            font-size: 19px;
+            width: 95%;
         }
 }
 
@@ -715,6 +834,27 @@ span .control{
         margin-left: 17%;
         margin-top: 1.2rem;
     }
+
+    #coluna-saiba-mais{
+        width: 550px; 
+        margin-bottom: 2rem; 
+        margin-left: -2%;
+    }
+    
+    #coluna-saiba-mais-texto{
+        margin-left: -34rem;
+        margin-top: 27rem;
+    }
+
+
+    #coluna-saiba-mais-texto p{
+        font-family: fonte2; 
+        text-align: justify; 
+        font-size: 19px;
+        width: 108%;
+    }
+
+    
  }
 
 /*extra*/
@@ -727,7 +867,7 @@ span .control{
     }
 
     #video-propostas{
-        width: 75%; 
+        width: 50%; 
         margin-left: 12%; 
         height: 300px; 
         margin-bottom: 2rem;
@@ -738,6 +878,29 @@ span .control{
         font-family: fonte1; 
         text-align: left;
         font-size: 30px;
+    }
+
+    #coluna-saiba-mais{
+        width: 550px; 
+        margin-bottom: 2rem; 
+        margin-left: -2%;
+    }
+    
+    #coluna-saiba-mais-texto{
+        margin-left: -34rem;
+        margin-top: 27rem;
+    }
+
+    #coluna-saiba-mais-texto{
+        margin-left: -21.3rem;
+        margin-top: 27rem;
+    }   
+
+    #coluna-saiba-mais-texto p{
+        font-family: fonte2; 
+        text-align: justify; 
+        font-size: 19px;
+        width: 108%;
     }
 }
 
@@ -764,6 +927,59 @@ span .control{
             margin-left: 23%;
             margin-top: 1.2rem;
         }
+
+        #coluna-saiba-mais{
+            width: 550px; 
+            margin-bottom: 2rem; 
+            margin-left: -2%;
+        }
+        
+        #coluna-saiba-mais-texto{
+            margin-left: -34rem;
+            margin-top: 27rem;
+        }
+    
+        #coluna-saiba-mais-texto{
+            margin-left: -19.3rem;
+            margin-top: 27rem;
+        }   
+    
+        #coluna-saiba-mais-texto p{
+            font-family: fonte2; 
+            text-align: justify; 
+            font-size: 19px;
+            width: 108%;
+        }
+}
+
+@media (max-width:375px){
+    #coluna3-contato{
+        margin-left: 23%;
+        margin-top: 1.2rem;
+    }
+
+    #coluna-saiba-mais{
+        width: 550px; 
+        margin-bottom: 2rem; 
+        margin-left: -2%;
+    }
+    
+    #coluna-saiba-mais-texto{
+        margin-left: -34rem;
+        margin-top: 27rem;
+    }
+
+    #coluna-saiba-mais-texto{
+        margin-left: 0.2rem;
+        margin-top: 1rem;
+    }   
+
+    #coluna-saiba-mais-texto p{
+        font-family: fonte2; 
+        text-align: justify; 
+        font-size: 19px;
+        width: 108%;
+    }
 }
 
 
